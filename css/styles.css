@@ -1,3 +1,11 @@
+html {
+  font-family: "Verdana", sans-serif;
+  letter-spacing: 1.5px;
+  background-color: white;
+  width: 1440px;
+  margin: 0 auto;
+}
+
 #menu {
 	display: inline;
 	float: right;
@@ -33,4 +41,9 @@ p {
 
 .inline {
 	display: inline;
+}
+
+.current_page {
+    color: #252CF3;
+    font-weight: 2px;
 }
