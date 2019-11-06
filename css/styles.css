@@ -6,6 +6,19 @@ html {
   margin: 0 auto;
 }
 
+li a {
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+p {
+	text-align: center;
+}
+
 #menu {
 	display: inline;
 	float: right;
@@ -20,23 +33,23 @@ html {
     text-align: center;
 }
 
-li a {
-    text-decoration: none;
-    color: black;
-    margin: 5px;
-    padding: 5px;
-    font-size: 20px;
-    font-weight: 300;
-}
-
 #menu li {
 	margin: 10px;
 	padding: 10px;
 	display: inline;
 }
 
-p {
-	text-align: center;
+#foot {
+	text-align: middle;
+	font-size: 13px;
+	padding-left: 300px;
+	padding-top: 20px;
+	padding-right: 300px;
+}
+
+#profile {
+	align: center;
+	width: 300px;
 }
 
 .inline {
