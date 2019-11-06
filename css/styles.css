@@ -6,6 +6,12 @@ html {
   margin: 0 auto;
 }
 
+header {
+	padding: 80px 0 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
 li a {
     text-decoration: none;
     color: black;
@@ -48,8 +54,17 @@ p {
 }
 
 #profile {
-	align: center;
+	text-align: center;
 	width: 300px;
+	height: auto;
+}
+
+#abt {
+	padding-bottom: 15px;
+}
+
+.center {
+	text-align: center;
 }
 
 .inline {
