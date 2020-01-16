@@ -47,9 +47,7 @@ p {
 #foot {
 	text-align: middle;
 	font-size: 13px;
-	padding-left: 300px;
 	padding-top: 20px;
-	padding-right: 300px;
 }
 
 #profile {
@@ -58,10 +56,64 @@ p {
 	height: auto;
 }
 
-#abt {
-	padding-bottom: 15px;
+#aboutme {
+	text-align: center;
+	margin: 0 auto;
 }
 
+#abt, #description{
+	vertical-align: middle;
+	display: inline-block;
+}
+
+#abt {
+	margin-right: 200px;
+}
+
+#description {
+	font-size: 50px;
+	font-family: "Palatino", serif;
+}
+
+#slide {
+	font-size: 50px;
+	font-family: "Palatino", serif;
+}
+
+#work {
+	background-color: #ebe9f7;
+	font-family: "Palatino", serif;
+}
+
+#workheadline {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+#awards {
+	background-color: #f2f0ee;
+	font-family: "Palatino", serif;
+}
+
+#awardheadline{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+#contact {
+	font-family: "Palatino", serif;
+	text-align: center;
+}
+
+.border-w {
+	border-width: 3px !important;
+}
 .center {
 	text-align: center;
 }
@@ -70,7 +122,99 @@ p {
 	display: inline;
 }
 
+.nav-link:hover {
+    color: #edebe9 !important;
+}
+
 .active {
-    color: #252CF3;
+    color: white;
     font-weight: 2px;
+}
+
+/*SOCİAL İCONS (CODE REFERENCED FROM https://codepen.io/NamiqNamaz/pen/QZYyEq)*/
+
+/* footer social icons */
+
+ul.social-network {
+  list-style: none;
+  display: inline;
+  margin-left: 0 !important;
+  padding: 0;
+}
+
+ul.social-network li {
+  display: inline;
+  margin: 0 5px;
+}
+
+
+/* footer social icons */
+
+.social-network a.icoGitHub:hover {
+  background-color: #f09a28;
+}
+
+.social-network a.icoLinkedin:hover {
+  background-color: #007bb7;
+}
+
+.social-network a.icoAt:hover {
+  background-color: #652cf5;
+}
+
+.social-network a.icoGitHub:hover i,
+.social-network a.icoAt:hover i,
+.social-network a.icoLinkedin:hover i {
+  color: #fff;
+}
+
+.social-network a.socialIcon:hover,
+.socialHoverClass {
+  color: #44BCDD;
+}
+
+.social-circle li a {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto 0 auto;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+}
+
+.social-circle li i {
+  margin-left: 3px;
+  line-height: 10px;
+  text-align: center;
+}
+
+.social-circle li a:hover i,
+.triggeredHover {
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -ms--transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.social-circle i {
+  color: #595959;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  transition: all 0.8s;
+  vertical-align: middle;
+}
+
+.social-network a {
+  background-color: #F9F9F9;
 }
