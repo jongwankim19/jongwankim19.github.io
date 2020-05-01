@@ -6,7 +6,7 @@ html {
 }
 
 header {
-	padding: 80px 0 20px;
+  padding: 80px 0 20px;
     text-align: center;
     margin-bottom: 10px;
 }
@@ -21,16 +21,16 @@ li a {
 }
 
 p {
-	text-align: center;
+  text-align: center;
 }
 
 #menu {
-	display: inline;
-	float: center;
+  display: inline;
+  float: center;
 }
 
 #menu ul {
-	margin: 10px;
+  margin: 10px;
     padding: 10px;
     height: 100%;
     list-style: none;
@@ -38,87 +38,87 @@ p {
 }
 
 #menu li {
-	margin: 10px;
-	padding: 10px;
-	display: inline;
+  margin: 10px;
+  padding: 10px;
+  display: inline;
 }
 
 #foot {
-	text-align: middle;
-	font-size: 13px;
-	padding-top: 20px;
+  text-align: middle;
+  font-size: 13px;
+  padding-top: 20px;
 }
 
 #profile {
-	text-align: center;
-	width: 300px;
-	height: auto;
+  text-align: center;
+  width: 300px;
+  height: auto;
 }
 
 #aboutme {
-	text-align: center;
-	margin: 0 auto;
+  text-align: center;
+  margin: 0 auto;
 }
 
 #abt, #description{
-	vertical-align: middle;
-	display: inline-block;
+  vertical-align: middle;
+  display: inline-block;
 }
 
 #abt {
-	margin-right: 200px;
+  margin-right: 200px;
 }
 
 #description {
-	font-size: 50px;
-	font-family: "Palatino", serif;
+  font-size: 50px;
+  font-family: "Palatino", serif;
 }
 
 #slide {
-	font-size: 50px;
-	font-family: "Palatino", serif;
+  font-size: 50px;
+  font-family: "Palatino", serif;
 }
 
 #work {
-	background-color: #ebe9f7;
-	font-family: "Palatino", serif;
+  background-color: #ebe9f7;
+  font-family: "Palatino", serif;
 }
 
 #workheadline {
-	padding-top: 20px;
-	padding-bottom: 20px;
-	text-align: center;
-	font-weight: bold;
-	font-size: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
 }
 
 #awards {
-	background-color: #f2f0ee;
-	font-family: "Palatino", serif;
+  background-color: #f2f0ee;
+  font-family: "Palatino", serif;
 }
 
 #awardheadline{
-	padding-top: 20px;
-	padding-bottom: 20px;
-	text-align: center;
-	font-weight: bold;
-	font-size: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
 }
 
 #contact {
-	font-family: "Palatino", serif;
-	text-align: center;
+  font-family: "Palatino", serif;
+  text-align: center;
 }
 
 .border-w {
-	border-width: 3px !important;
+  border-width: 3px !important;
 }
 .center {
-	text-align: center;
+  text-align: center;
 }
 
 .inline {
-	display: inline;
+  display: inline;
 }
 
 .nav-link:hover {
