@@ -1,133 +1,45 @@
-html {
-  letter-spacing: 1.5px;
-  font-family: "Palatino", serif;
-  background-color: white;
-  margin: 0 auto;
+body {
+  margin : 0;
+  font-family : "Lucida Grande", sans-serif;
 }
 
-header {
-  padding: 80px 0 20px;
-    text-align: center;
-    margin-bottom: 10px;
+.hero {
+  /* Size */
+  width : 100vw;
+  height : 100vh;
+
+  /* Flexbox */
+  display : flex;
+  justify-content : center;
+  align-items : center;
+
+  /* Background */
+  background-image : linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../pics/prof1.jpg");
+  background-size : cover;
+  background-position : center center;
+  background-repeat : no-repeat;
+  background-attachment : fixed;
 }
 
-li a {
-    text-decoration: none;
-    color: black;
-    margin: 5px;
-    padding: 5px;
-    font-size: 20px;
-    font-weight: 300;
+.hero #lead {
+  font-size: 1.75em;
+  text-align: left;
+
+  /* Margins */
+  margin-top : 0;
+  margin-bottom : 0.5em;
+
+  /* Text */
+  color : #0de4e7;
 }
 
-p {
-  text-align: center;
-}
+.hero h1 {
+  /* Header */
+  font-size : 5em;
 
-#menu {
-  display: inline;
-  float: center;
-}
-
-#menu ul {
-  margin: 10px;
-    padding: 10px;
-    height: 100%;
-    list-style: none;
-    text-align: center;
-}
-
-#menu li {
-  margin: 10px;
-  padding: 10px;
-  display: inline;
-}
-
-#foot {
-  text-align: middle;
-  font-size: 13px;
-  padding-top: 20px;
-}
-
-#profile {
-  text-align: center;
-  width: 300px;
-  height: auto;
-}
-
-#aboutme {
-  text-align: center;
-  margin: 0 auto;
-}
-
-#abt, #description{
-  vertical-align: middle;
-  display: inline-block;
-}
-
-#abt {
-  margin-right: 200px;
-}
-
-#description {
-  font-size: 50px;
-  font-family: "Palatino", serif;
-}
-
-#slide {
-  font-size: 50px;
-  font-family: "Palatino", serif;
-}
-
-#work {
-  background-color: #ebe9f7;
-  font-family: "Palatino", serif;
-}
-
-#workheadline {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  text-align: center;
-  font-weight: bold;
-  font-size: 25px;
-}
-
-#awards {
-  background-color: #f2f0ee;
-  font-family: "Palatino", serif;
-}
-
-#awardheadline{
-  padding-top: 20px;
-  padding-bottom: 20px;
-  text-align: center;
-  font-weight: bold;
-  font-size: 25px;
-}
-
-#contact {
-  font-family: "Palatino", serif;
-  text-align: center;
-}
-
-.border-w {
-  border-width: 3px !important;
-}
-.center {
-  text-align: center;
-}
-
-.inline {
-  display: inline;
-}
-
-.nav-link:hover {
-    color: #edebe9 !important;
-}
-
-.active {
-    color: white;
-    font-weight: 2px;
+  /* Margins */
+  margin-top : 0;
+  margin-bottom : 0.5em;
 }
 
 /*SOCİAL İCONS (CODE REFERENCED FROM https://codepen.io/NamiqNamaz/pen/QZYyEq)*/
