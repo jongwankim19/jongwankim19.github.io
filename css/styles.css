@@ -15,7 +15,7 @@ body {
   align-items : center;
 
   /* Background */
-  background-image : linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../pics/prof1.jpg");
+  background-image : linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../pics/cheesin.jpg");
   background-size : cover;
   background-position : center center;
   background-repeat : no-repeat;
@@ -74,9 +74,14 @@ ul.social-network li {
   background-color: #652cf5;
 }
 
+.social-network a.icoResume:hover {
+  background-color: #1ed2a1;
+}
+
 .social-network a.icoGitHub:hover i,
 .social-network a.icoAt:hover i,
-.social-network a.icoLinkedin:hover i {
+.social-network a.icoLinkedin:hover i,
+.social-network a.icoResume:hover i {
   color: #fff;
 }
 
@@ -99,8 +104,8 @@ ul.social-network li {
 }
 
 .social-circle li i {
-  margin-left: 3px;
-  line-height: 10px;
+  margin-left: 2px;
+  line-height: 40px;
   text-align: center;
 }
 
