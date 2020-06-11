@@ -43,6 +43,22 @@ body {
   margin-bottom : 0.5em;
 }
 
+.nav-pills a{
+  color : black;
+}
+
+.work {
+  height: 100%;
+  width: auto;
+  border-radius: 10%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.work:hover {
+  transform: scale(1.15);
+  transition-duration: 0.2s;
+}
+
 /*SOCİAL İCONS (CODE REFERENCED FROM https://codepen.io/NamiqNamaz/pen/QZYyEq)*/
 
 /* footer social icons */
@@ -123,7 +139,7 @@ ul.social-network li {
 }
 
 .social-circle i {
-  color: #595959;
+  color: #b0b0b0;
   -webkit-transition: all 0.8s;
   -moz-transition: all 0.8s;
   -o-transition: all 0.8s;
@@ -133,5 +149,5 @@ ul.social-network li {
 }
 
 .social-network a {
-  background-color: #F9F9F9;
+  background-color: transparent;
 }

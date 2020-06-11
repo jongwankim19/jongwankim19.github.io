@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html>
+<html style="scroll-behavior: smooth;">
 
 <head>
 
@@ -19,12 +19,12 @@
 
 <body>
 
-	<section class="hero">
+	<section class="hero" id="hero">
 		<div class="hero-inner">
 			<span id="lead"> Hello! I am </span>
 		</div>
 		<div class="hero-inner">
-			<h1 class="typewrite" data-period="2000" data-type='["Jongwan Kim", "a software engineer", "a CS student @ Cornell University", "a machine learning enthusiast", "a competitive programmer"]'> 
+			<h1 class="typewrite" data-period="2000" data-type='["Jongwan Kim", "a software engineer", "a CS student @ Cornell University", "a machine learning enthusiast", "a competitive programmer", "an algorithmist"]'> 
 				<span class="wrap"></span>
 			</h1>
 		</div>
@@ -38,13 +38,54 @@
         </div>
 	</section>
 	
-	<main>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec nibh molestie, efficitur leo sed, viverra nunc. Donec vehicula accumsan erat facilisis ullamcorper. Donec commodo quis dui nec placerat. Donec mi orci, scelerisque eget nisl ac, hendrerit condimentum odio. Nam dictum odio eget quam tempus, a mattis odio ornare. Nullam auctor libero ut libero suscipit, ut accumsan nunc condimentum. Donec ullamcorper maximus sapien quis egestas.</p>
+	<section style="display: flex; flex-direction: column; background-color: #afbcbd; padding-bottom: 5%;">
+		<div style="margin-top: 3%; margin-bottom: 5%;">
+			<ul class="nav nav-pills justify-content-center">
+				<!-- <li class="nav-item"> <a class="nav-link" data-toggle="pill" href="#education"> Education </a> </li> -->
+				<li class="nav-item"> <a class="nav-link active" data-toggle="pill" href="#experience"> Experience </a> </li>
+				<li class="nav-item"> <a class="nav-link" data-toggle="pill" href="#projects"> Projects </a> </li>
+				<!-- <li class="nav-item"> <a class="nav-link" data-toggle="pill" href="#awards"> Awards </a> </li> -->
+			</ul>
+		</div>
 
-        <p>Mauris viverra scelerisque lobortis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce ultrices enim sit amet elit tincidunt maximus. Suspendisse vitae pellentesque lectus. Duis commodo leo suscipit augue mollis, non venenatis dolor ullamcorper. Duis tincidunt scelerisque lacus, vel vehicula leo consectetur vel. Duis posuere nisl non odio consequat ultrices. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        
-        <p>Etiam a leo nec mi blandit euismod. Etiam fringilla odio vitae risus ornare, id bibendum velit consequat. Fusce posuere risus sollicitudin condimentum ultrices. Fusce gravida, purus eget laoreet mattis, velit sapien ultrices diam, id dapibus erat leo id quam. Maecenas quis risus convallis, placerat elit non, iaculis tortor. Nullam porttitor magna risus, quis bibendum metus tincidunt in. Etiam vel ligula ac risus mattis tincidunt vel sit amet ante. Morbi et viverra ligula. Ut ac dignissim nisi, condimentum imperdiet mauris. Pellentesque ut ipsum vel diam tristique faucibus eu et lectus. Maecenas posuere neque non lacus bibendum, sit amet pharetra justo semper. Sed mi risus, tempor sit amet ligula eget, varius pretium est. Sed a odio in orci accumsan pretium suscipit ut quam.</p>
-	</main>
+		<!-- Tab panes -->
+		<div class="tab-content">
+			<div class="tab-pane container fade" id="education"> </div>
+			<div class="tab-pane container fade show active" id="experience"> 
+				<div class="row">
+					<div class="col-4 my-auto text-center">
+						<img class="work" src="pics/rapstudy.png" alt="rapstudy">
+					</div>
+					<div class="col">
+						<h3 style="font-weight: bold; padding-left: 0;"> rapStudy </h3>
+						<p style="padding-left: 0; margin-bottom: 0;"> Full Stack Developer Intern</p>
+						<p style="padding-left: 0;"> Ithaca, NY | Summer '20 </p>
+						<ul style="font-size: 15px; padding-left: 0;">
+							<li> Designed and implemented efficient algorithms that query and sort data and data structures that best facilitate property propagation from parent to child React components. </li>
+							<li> Optimized various functions by minimizing asynchronous Firestore queries and utilizing various optimization techniques, such as building a lookup table to reduce repeated data computations, to restrict the upper bound of any function to quadratic time complexity. </li>
+							<li> Implemented Firebase Firestore backend functionalities such as efficiently and asynchronously querying data on a multi-layer Firestore cloud storage and updating various document fields. </li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="tab-pane container fade" id="projects"> hello 2 </div>
+			<div class="tab-pane container fade" id="awards"> </div>
+		</div>
+	</section>
+
+	<section style="padding-bottom: 5%; display: flex; flex-direction: column;">
+		<h1 style="padding-left: 10%; padding-top: 5%; padding-bottom: 2.5%; font-weight: bold;"> About Me </h1>
+		<div style="padding-left: 10%; padding-right: 10%; display: flex; flex-direction: column;">
+			<img src="pics/prof1.jpg" alt="me" style="margin: 0 auto; border-radius: 20%; height: 60%; width: 60%; padding-bottom: 5%;" />
+			<p style="margin: 0 auto; font-size: 125%;"> Hello there! I am Jongwan Kim, a rising sophomore at <span style="color: red; font-weight: bold;"> Cornell University. </span> I plan on declaring my major as computer science and pursue an applied math minor and an operations research and management science minor. I am passionate about solving insightful and challenging algorithmic problems, building intelligent systems that facilitate people's lives and learning new things! Moreover, I have been specifically interested in graph theory because I find its application to the real world quite fascinating. Outside of academic matters, I enjoy playing basketball, eating KBBQ and trying to stay fit! </p>
+		</div>
+	</section>
+
+	<section style="background-color: black; height: 20vh;"> 
+		<div style="height: 100%; display: flex; justify-content: center; align-items: center;">
+			<a href="#hero" style="color: white; font-size: x-large; text-decoration: none;"> back to top </a>
+		</div>
+	</section>
 
 	<!-- jQuery -->
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
