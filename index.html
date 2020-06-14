@@ -38,8 +38,8 @@
         </div>
 	</section>
 	
-	<section style="display: flex; flex-direction: column; background-color: #afbcbd; padding-bottom: 5%;">
-		<div style="margin-top: 3%; margin-bottom: 5%;">
+	<section style="display: flex; flex-direction: column; background-color: rgba(161, 190, 214, 0.65); padding-bottom: 5%;">
+		<div class="hidden" style="margin-top: 3%; margin-bottom: 5%;">
 			<ul class="nav nav-pills justify-content-center">
 				<!-- <li class="nav-item"> <a class="nav-link" data-toggle="pill" href="#education"> Education </a> </li> -->
 				<li class="nav-item"> <a class="nav-link active" data-toggle="pill" href="#experience"> Experience </a> </li>
@@ -49,14 +49,14 @@
 		</div>
 
 		<!-- Tab panes -->
-		<div class="tab-content">
+		<div class="tab-content hidden">
 			<div class="tab-pane container fade" id="education"> </div>
 			<div class="tab-pane container fade show active" id="experience"> 
 				<div class="row">
 					<div class="col-4 my-auto text-center">
 						<img class="work" src="pics/rapstudy.png" alt="rapstudy">
 					</div>
-					<div class="col">
+					<div class="col my-auto">
 						<h3 style="font-weight: bold; padding-left: 0;"> rapStudy </h3>
 						<p style="padding-left: 0; margin-bottom: 0;"> Full Stack Developer Intern</p>
 						<p style="padding-left: 0;"> Ithaca, NY | Summer '20 </p>
@@ -68,16 +68,33 @@
 					</div>
 				</div>
 			</div>
-			<div class="tab-pane container fade" id="projects"> hello 2 </div>
+			<div class="tab-pane container fade" id="projects">
+				<div class="row">
+					<div class="col-4 my-auto text-center">
+						<img class="work" src="pics/boggle.png" alt="boggle">
+					</div>
+					<div class="col my-auto">
+						<h3 style="font-weight: bold; padding-left: 0;"> Optimized Boggle </h3>
+						<p style="padding-left: 0;"> OCaml </p>
+						<ul style="font-size: 15px; padding-left: 0;">
+							<li> Built a modified Boggle gameplay system in OCaml with an integrated sorted scoreboard with realtime update queries, such as an automatic addition of the player's score and an optional scoreboard deletion functionalities. </li>
+							<li> Implemented an efficient word storage and validation algorithm via prefix trees and depth first search. Optimized the word validation algorithm time complexity from <i>O(N)</i> to <i>O(K)</i> per word where <i>N</i> is the number of all English words and <i>K</i> is the length of the current word. This led to an average runtime reduction of around 80% per word. </li>
+							<li> Embedded a live timer and incorporated ANSITerminal to style various components of the system for an enhanced interaction with the player. </li>
+						</ul>
+					</div>
+				</div>
+			</div>
 			<div class="tab-pane container fade" id="awards"> </div>
 		</div>
 	</section>
 
-	<section style="padding-bottom: 5%; display: flex; flex-direction: column;">
-		<h1 style="padding-left: 10%; padding-top: 5%; padding-bottom: 2.5%; font-weight: bold;"> About Me </h1>
-		<div style="padding-left: 10%; padding-right: 10%; display: flex; flex-direction: column;">
-			<img src="pics/prof1.jpg" alt="me" style="margin: 0 auto; border-radius: 20%; height: 60%; width: 60%; padding-bottom: 5%;" />
-			<p style="margin: 0 auto; font-size: 125%;"> Hello there! I am Jongwan Kim, a rising sophomore at <span style="color: red; font-weight: bold;"> Cornell University. </span> I plan on declaring my major as computer science and pursue an applied math minor and an operations research and management science minor. I am passionate about solving insightful and challenging algorithmic problems, building intelligent systems that facilitate people's lives and learning new things! Moreover, I have been specifically interested in graph theory because I find its application to the real world quite fascinating. Outside of academic matters, I enjoy playing basketball, eating KBBQ and trying to stay fit! </p>
+	<div style="background: linear-gradient(rgba(161, 190, 214, 0.65),rgba(168, 198, 237, 0.35)); height: 15vh"></div>
+
+	<section style="padding-bottom: 5%; display: flex; flex-direction: column; background-color: rgba(168, 198, 237, 0.35);">
+		<h1 class="hidden" style="padding-left: 10%; padding-top: 5%; padding-bottom: 2.5%; font-weight: bold;"> About Me </h1>
+		<div class="hidden" style="padding-left: 10%; padding-right: 10%; display: flex; flex-direction: column;">
+			<img class="hidden " src="pics/prof1.jpg" alt="me" style="margin: 0 auto; border-radius: 20%; height: 60%; width: 60%; padding-bottom: 5%;" />
+			<p class="hidden" style="margin: 0 auto; font-size: 125%;"> Hello there! I am Jongwan Kim, a rising sophomore at <span style="color: #e30400; font-weight: bold;"> Cornell University. </span> I plan on declaring my major as computer science and pursue an applied math minor and an operations research and management science minor. I am passionate about solving insightful and challenging algorithmic problems, building intelligent systems that facilitate people's lives and learning new things! Moreover, I have been specifically interested in graph theory because I find its application to the real world quite fascinating. Outside of academic matters, I enjoy playing basketball, eating KBBQ and trying to stay fit! </p>
 		</div>
 	</section>
 

@@ -47,6 +47,10 @@ body {
   color : black;
 }
 
+.nav-pills a:hover {
+  background-color: #d5eeff;
+}
+
 .work {
   height: 100%;
   width: auto;
@@ -57,6 +61,19 @@ body {
 .work:hover {
   transform: scale(1.15);
   transition-duration: 0.2s;
+}
+
+@keyframes fade-in {
+  from{opacity: 0; transform: translateY(10%);}
+    to {opacity: 1;}
+}
+
+.fade-in-element {
+  animation: fade-in 1.4s;
+}
+
+.hidden {
+  opacity: 0;
 }
 
 /*SOCİAL İCONS (CODE REFERENCED FROM https://codepen.io/NamiqNamaz/pen/QZYyEq)*/

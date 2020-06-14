@@ -1,3 +1,33 @@
+// From https://www.dev-tips-and-tricks.com/animate-elements-scrolled-view-vanilla-js
+
+(function() {
+  var elements;
+  var windowHeight;
+
+  function init() {
+    elements = document.querySelectorAll('.hidden');
+    windowHeight = window.innerHeight;
+  }
+
+  function checkPosition() {
+    for (var i = 0; i < elements.length; i++) {
+      var element = elements[i];
+      var positionFromTop = elements[i].getBoundingClientRect().top;
+
+      if (positionFromTop - windowHeight <= 0) {
+        element.classList.add('fade-in-element');
+        element.classList.remove('hidden');
+      }
+    }
+  }
+
+  window.addEventListener('scroll', checkPosition);
+  window.addEventListener('resize', init);
+
+  init();
+  checkPosition();
+})();
+
 //From https://css-tricks.com/snippets/css/typewriter-effect/, modified by Jongwan Kim
 
 var TxtType = function(el, toRotate, period) {
