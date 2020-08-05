@@ -52,15 +52,15 @@ body {
 }
 
 .work {
-  height: 100%;
-  width: auto;
+  height: auto;
+  width: 80%;
   border-radius: 10%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .work:hover {
   transform: scale(1.15);
-  transition-duration: 0.2s;
+  transition-duration: 0.5s;
 }
 
 @keyframes fade-in {
@@ -74,6 +74,10 @@ body {
 
 .hidden {
   opacity: 0;
+}
+
+li:not(:last-child) {
+    margin-bottom: 15px;
 }
 
 /*SOCİAL İCONS (CODE REFERENCED FROM https://codepen.io/NamiqNamaz/pen/QZYyEq)*/
