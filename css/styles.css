@@ -72,6 +72,10 @@ body {
   animation: fade-in 1.4s;
 }
 
+.row-m-t {
+  margin-top: 20vh;
+}
+
 .hidden {
   opacity: 0;
 }
