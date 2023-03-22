@@ -32,7 +32,7 @@
 			<ul class="social-network social-circle">
 				<li> <a href="https://www.linkedin.com/in/jongwankim/" target="_blank" class="icoLinkedin" title="LinkedIn"> <i class="fa fa-linkedin"> </i> </a> </li>
 				<li> <a href="https://github.com/jongwankim19" target="_blank" class="icoGitHub" title="GitHub"> <i class="fa fa-github"> </i> </a> </li>
-				<li> <a href="https://drive.google.com/file/d/1_9tYDjm1nzaQFoeq2Nk1eOyWtB5trHXU/view?usp=sharing" target="_blank" class="icoResume" title="Resume"> <i class="fa fa-file-text"> </i> </a> </li>
+				<li> <a href="https://drive.google.com/file/d/1jUGh4h9sTvB0tdMW7aPu__OB0jqpngq0/view?usp=sharing" target="_blank" class="icoResume" title="Resume"> <i class="fa fa-file-text"> </i> </a> </li>
 				<li> <a href="mailto:jk2369@cornell.edu" class="icoAt" title="Email"> <i class="fa fa-inbox"> </i> </a> </li>
             </ul>
         </div>
@@ -41,28 +41,44 @@
 	<section style="display: flex; flex-direction: column; background-color: rgba(161, 190, 214, 0.65); padding-bottom: 5%;">
 		<div class="hidden" style="margin-top: 3%; margin-bottom: 5%;">
 			<ul class="nav nav-pills justify-content-center">
-				<!-- <li class="nav-item"> <a class="nav-link" data-toggle="pill" href="#education"> Education </a> </li> -->
 				<li class="nav-item"> <a class="nav-link active" data-toggle="pill" href="#experience"> Experience </a> </li>
 				<li class="nav-item"> <a class="nav-link" data-toggle="pill" href="#projects"> Projects </a> </li>
-				<!-- <li class="nav-item"> <a class="nav-link" data-toggle="pill" href="#awards"> Awards </a> </li> -->
 			</ul>
 		</div>
 
 		<!-- Tab panes -->
 		<div class="tab-content hidden">
-			<div class="tab-pane container fade" id="education"> </div>
 			<div class="tab-pane container fade show active" id="experience"> 
-				<!-- FACEBOOK -->
+				<!-- META -->
 				<div class="row">
 					<div class="col-4 my-auto text-center">
-						<img class="work" src="pics/fb.gif" alt="facebook">
+						<img class="work" src="pics/metav2.gif" alt="metav2">
 					</div>
 					<div class="col my-auto">
-						<h3 style="font-weight: bold; padding-left: 0;"> Facebook </h3>
-						<p style="padding-left: 0; margin-bottom: 0;"> <i> Incoming Software Engineer Intern </i> </p>
+						<h3 style="font-weight: bold; padding-left: 0;"> Instagram </h3>
+						<p style="padding-left: 0; margin-bottom: 0;"> <i> Software Engineer Intern </i> </p>
+						<p style="padding-left: 0;"> <i class="fa fa-map-marker"> New York, NY | Summer '22 </i> </p>
+						<ul style="font-size: 15px; padding-left: 0;">
+							<li> Spearheaded and documented the development of direct messaging framework on Instagram for sending two out of four branded content ads partnership request flows used in Meta Business Suite, which are predicted to generate approximately $50k and $2.5k respectively in daily ads revenue as computed by analyzing differences in acceptance rates between with and without direct messages from a related feature. </li>
+							<li> Introduced and documented a reusable and scalable schema for building and sending system messages to help the businesses and creators understand the status of their permission requests more comprehensively and sequentially from their Instagram chat threads. </li>
+							<li> Improved the capabilities of the internal frameworks, data flow, and data structures pertaining to Instagram's creator-to-business partnerships by establishing GraphQL endpoints for permission request creation, update and deletion, and fortifying privacy and validation rules in Hack. </li>
+						</ul>
+					</div>
+				</div>
+
+				<!-- META -->
+				<div class="row row-m-t">
+					<div class="col-4 my-auto text-center">
+						<img class="work" src="pics/meta.gif" alt="meta">
+					</div>
+					<div class="col my-auto">
+						<h3 style="font-weight: bold; padding-left: 0;"> Meta Platforms, Inc. </h3>
+						<p style="padding-left: 0; margin-bottom: 0;"> <i> Software Engineer Intern </i> </p>
 						<p style="padding-left: 0;"> <i class="fa fa-map-marker"> Menlo Park, CA | Summer '21 </i> </p>
 						<ul style="font-size: 15px; padding-left: 0;">
-							
+							<li> Simplified, accelerated and reduced the existing 6 step crossposting flow into 2 steps by migrating the authorization process to an internal framework and setting up a bulk sharing schema with concurrency to lessen the manual process and waiting times in between steps. </li>
+							<li> Increased engagement, visibility and flexibility of videos in Creator Studio by introducing a shortcut to share editable medias across different Facebook pages and accounts while preserving their metadata, and by building a comprehensive modal with a universal page selector. </li>
+							<li> Collaborated with cross-functional and privacy teams to add/fortify validation rules for video sharing, and discuss privacy and design iterations. </li>
 						</ul>
 					</div>
 				</div>
@@ -87,6 +103,19 @@
 			<div class="tab-pane container fade" id="projects">
 				<div class="row">
 					<div class="col-4 my-auto text-center">
+						<a href="https://github.com/jongwankim19/BOthello" target="_blank"> <img class="work" src="pics/bothello.png" alt="bothello"> </a>
+					</div>
+					<div class="col my-auto">
+						<h3 style="font-weight: bold; padding-left: 0;"> BOthello - The Othello AI</h3>
+						<p style="padding-left: 0;"> Python </p>
+						<ul style="font-size: 15px; padding-left: 0;">
+							<li> Constructed an Othello AI agent that utilizes both well-known Othello strategies, such as taking corners or edges first and the sweet sixteen method, and bounded negamax algorithm to autonomously play optimal moves against itself or the human player. </li>
+							<li> Optimized the negamax search step by incorporating alpha beta pruning to remove branches in the search tree that are guaranteed to be suboptimal plays, reducing the runtime by around 80%. </li>
+						</ul>
+					</div>
+				</div>
+				<div class="row row-m-t">
+					<div class="col-4 my-auto text-center">
 						<a href="https://github.com/jongwankim19/Boggle" target="_blank"> <img class="work" src="pics/boggle.png" alt="boggle"> </a>
 					</div>
 					<div class="col my-auto">
@@ -100,7 +129,6 @@
 					</div>
 				</div>
 			</div>
-			<div class="tab-pane container fade" id="awards"> </div>
 		</div>
 	</section>
 
