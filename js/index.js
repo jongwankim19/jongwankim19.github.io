@@ -1,3 +1,14 @@
+$(document).on("scroll", function(){
+  if
+    ($(document).scrollTop() >= window.innerHeight - 100){
+    $("#navbar").addClass("shrink");
+  }
+  else
+  {
+    $("#navbar").removeClass("shrink");
+  }
+});
+
 // From https://www.dev-tips-and-tricks.com/animate-elements-scrolled-view-vanilla-js
 
 (function() {

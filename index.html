@@ -19,6 +19,25 @@
 
 <body>
 
+	<nav class="navbar navbar-expand-md navbar-dark fixed-top" id="navbar">
+		<div class="container">
+	   <!-- Navbar links -->
+	  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+		<ul class="navbar-nav ml-auto">
+		  <li class="nav-item">
+			<a class="nav-link" href="#work&projects">Experiences & Projects</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="#about">About Me</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="https://drive.google.com/file/d/1jUGh4h9sTvB0tdMW7aPu__OB0jqpngq0/view?usp=sharing" target="_blank">Resume</a>
+		  </li> 
+		</ul>
+	  </div>
+		</div>
+	</nav>
+
 	<section class="hero" id="hero">
 		<div class="hero-inner">
 			<span id="lead"> Hello! I am </span>
@@ -38,7 +57,7 @@
         </div>
 	</section>
 	
-	<section style="display: flex; flex-direction: column; background-color: rgba(161, 190, 214, 0.65); padding-bottom: 5%;">
+	<section id="work&projects" style="display: flex; flex-direction: column; background-color: rgba(161, 190, 214, 0.65); padding-bottom: 5%;">
 		<div class="hidden" style="margin-top: 3%; margin-bottom: 5%;">
 			<ul class="nav nav-pills justify-content-center">
 				<li class="nav-item"> <a class="nav-link active" data-toggle="pill" href="#experience"> Experience </a> </li>
@@ -106,7 +125,10 @@
 						<a href="https://github.com/jongwankim19/BOthello" target="_blank"> <img class="work" src="pics/bothello.png" alt="bothello"> </a>
 					</div>
 					<div class="col my-auto">
-						<h3 style="font-weight: bold; padding-left: 0;"> BOthello - The Othello AI</h3>
+						<div style="display: flex;">
+							<h3 style="font-weight: bold; padding-left: 0;"> BOthello - The Othello AI</h3>
+							<a href="https://github.com/jongwankim19/BOthello" target="_blank" class="icoGitHub" title="GitHub"> <i class="fa fa-github"> </i> </a> 
+						</div>
 						<p style="padding-left: 0;"> Python </p>
 						<ul style="font-size: 15px; padding-left: 0;">
 							<li> Constructed an Othello AI agent that utilizes both well-known Othello strategies, such as taking corners or edges first and the sweet sixteen method, and bounded negamax algorithm to autonomously play optimal moves against itself or the human player. </li>
@@ -119,7 +141,10 @@
 						<a href="https://github.com/jongwankim19/Boggle" target="_blank"> <img class="work" src="pics/boggle.png" alt="boggle"> </a>
 					</div>
 					<div class="col my-auto">
-						<h3 style="font-weight: bold; padding-left: 0;"> Optimized Terminal Boggle </h3>
+						<div style="display: flex;">
+							<h3 style="font-weight: bold; padding-left: 0;"> Optimized Terminal Boggle </h3>
+							<a href="https://github.com/jongwankim19/Boggle" target="_blank" class="icoGitHub" title="GitHub"> <i class="fa fa-github"> </i> </a> 
+						</div>
 						<p style="padding-left: 0;"> OCaml </p>
 						<ul style="font-size: 15px; padding-left: 0;">
 							<li> Built a modified Boggle gameplay system in OCaml with an integrated sorted scoreboard with live update functionalities such as automatic addition of the player's scores and optional deletion of the scoreboard. </li>
@@ -134,7 +159,7 @@
 
 	<div style="background: linear-gradient(rgba(161, 190, 214, 0.65),rgba(168, 198, 237, 0.35)); height: 15vh"></div>
 
-	<section style="padding-bottom: 5%; display: flex; flex-direction: column; background-color: rgba(168, 198, 237, 0.35);">
+	<section id="about" style="padding-bottom: 5%; display: flex; flex-direction: column; background-color: rgba(168, 198, 237, 0.35);">
 		<h1 class="hidden" style="padding-left: 10%; padding-top: 5%; padding-bottom: 2.5%; font-weight: bold;"> About Me </h1>
 		<div class="hidden" style="padding-left: 10%; padding-right: 10%; display: flex; flex-direction: column;">
 			<img class="hidden " src="pics/prof1.jpg" alt="me" style="margin: 0 auto; border-radius: 20%; height: 60%; width: 60%; padding-bottom: 5%;" />

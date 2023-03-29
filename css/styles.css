@@ -43,6 +43,32 @@ body {
   margin-bottom : 0.5em;
 }
 
+.navbar-nav .nav-item .nav-link{
+	padding: 1em 1em!important;
+	font-size: 100%;
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+.navbar-nav .nav-item .nav-link:hover{color:#fed136;}
+
+.navbar-expand-md .navbar-nav .dropdown-menu{
+	border-top:3px solid #fed136;
+}
+
+nav {
+  -webkit-transition: padding-top .3s,padding-bottom .3s;
+  -moz-transition: padding-top .3s,padding-bottom .3s;
+  transition: padding-top .3s,padding-bottom .3s;
+  border: none;
+}
+	
+.shrink {
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: #212529;
+}
+
 .nav-pills a{
   color : black;
 }
