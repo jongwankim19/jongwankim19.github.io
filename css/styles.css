@@ -84,7 +84,14 @@ nav {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-.work:hover {
+.project {
+  height: auto;
+  width: 80%;
+  border-radius: 10%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.project:hover {
   transform: scale(1.15);
   transition-duration: 0.5s;
 }
